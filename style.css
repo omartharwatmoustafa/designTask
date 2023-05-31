@@ -1,0 +1,325 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5f4fb;
+    padding: 20px;
+
+}
+
+nav .left-nav img {
+    width: 75px;
+}
+
+nav .left-nav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+nav .left-nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #b6c3c9;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .left-nav a:hover {
+    border-bottom: 1px solid #a299b2;
+}
+
+nav .right-nav input {
+    background-color: white;
+    border-radius: 12px;
+    width: 75px;
+    height: 30px;
+    border: none;
+    color: #b6c3c9;
+    cursor: pointer;
+}
+
+/* nav end */
+/* middle section start */
+
+.middle-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/blue_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* middle section left start */
+.middle-sec .slogan {
+    direction: ltr;
+    width: 670px;
+}
+
+.middle-sec .slogan h4 {
+    font-size: 60px;
+    font-family: sans-serif;
+    color: #5f6e75;
+    width: 100%;
+}
+
+.middle-sec .slogan span {
+    color: #6a2e88;
+}
+
+.middle-sec .slogan p {
+    font-size: 30px;
+    color: #b2c1c8;
+}
+
+/* middle section left end */
+/* middle section right start */
+.sec-right {
+    position: relative;
+}
+
+.sec-right .background-img {
+    width: 600px;
+}
+
+.sec-right .mask-group {
+    position: absolute;
+    height: 445px;
+    right: 200px;
+}
+
+.sec-right .waves {
+    position: absolute;
+    top: 500px;
+    left: -442px;
+    width: 895px;
+}
+
+.sec-right .clouds {
+    position: absolute;
+    top: 367px;
+    left: 87px;
+    width: 352px;
+}
+
+/* middle section right end */
+/* middle section end */
+/* second section start */
+.second-sec {
+    margin: 20px;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.second-sec .bg .background-string {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cycle-img,
+.clock-img,
+.percentage-img {
+    width: 200px;
+}
+
+.cycle,
+.clock,
+.percentage {
+    width: 200px;
+    position: absolute;
+    text-align: center;
+
+}
+
+.cycle {
+    bottom: 350px;
+    left: 1px;
+    background-color: white;
+}
+
+.clock {
+    top: 271px;
+    right: 730px;
+    background-color: white;
+}
+
+.percentage {
+    top: 560px;
+    right: 220px;
+    background-color: white;
+}
+
+.second-sec h3 {
+    color: #a7a7a7;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second-sec p {
+    margin-top: 5px;
+    color: #9c9c9c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.kudzuka {
+    background-image: url(images/why_kudzoka_bg.png);
+    width: 214px;
+    height: 177px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 68px;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kudzuka .kudzuka-text p,
+.kudzuka .kudzuka-text h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 50;
+}
+
+.kudzuka .kudzuka-text p {
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+.kudzuka .kudzuka-text h3 {
+    margin-top: 5px;
+}
+
+/* second section end */
+/* third section start */
+.third-sec {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.third-sec .group-1007 {
+    text-align: center;
+    margin: 0 80px;
+
+
+}
+
+.img-1007 {
+    width: 300px;
+
+}
+
+.img-1006,
+.img-1008 {
+    width: 150px;
+    padding-top: 120px;
+
+}
+
+.group-1007 h4 {
+    margin: 5px 0;
+    color: #949494;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.group-1007 p {
+    color: #9e9797;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+}
+
+.group-1007-text {
+    width: 200px;
+    margin-left: 55px;
+}
+
+/* third section end */
+/* footer-section start */
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url(images/Group\ 1131.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.footer-right img {
+    width: 650px;
+    height: 490px;
+    position: absolute;
+    right: 130px;
+    bottom: 50px;
+}
+
+.footer-left .first-div {
+    display: flex;
+    margin-top: 300px;
+    margin-right: 500px;
+
+}
+
+.footer-left .first-div .apple-store,
+.footer-left .first-div .play-store {
+    display: flex;
+    margin-right: 50px;
+    padding: 5px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 8px;
+    height: 20px;
+}
+
+.footer-left .first-div .apple-store p,
+.footer-left .first-div .play-store p {
+    margin-left: 10px;
+}
+
+i {
+    color: #5252b6;
+    font-size: 20px;
+}
+
+footer .second-div {
+    display: flex;
+    margin-top: 20px;
+}
+
+footer .second-div img {
+    margin-left: 20px;
+    width: 20px;
+}
+
+footer .third-div {
+    width: 300px;
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-around;
+
+}
+
+footer .third-div a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* footer-section end */
